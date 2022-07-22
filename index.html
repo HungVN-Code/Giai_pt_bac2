@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="app container">
+        <h1>Giải Phương Trình Bậc Hai <br> <h2>ax2 + bx + c = 0</h2></h1>
+
+        <form method="post">
+            <center>
+                <div class="import">
+                    <br><p>Nhập A:</p>
+                    <input type="text" name="a" placeholder="a">
+                </div>
+
+                <div class="import">
+                    <br><p>Nhập B:</p>
+                    <input type="text" name="b" placeholder="b">
+                </div>
+
+                <div class="import">
+                    <br><p>Nhập C:</p>
+                    <input type="text" name="c" placeholder="c">
+                </div>
+
+                <input class="prize" type="button" value="GIẢI" onClick="giai(this.form)">
+
+                <br><span>Đáp số:</span><br>
+
+                <br><input type="text" name="x" placeholder="X1">
+                <input type="text" name="y" placeholder="X2"><br>
+            </center>
+        </form>
+    </div>
+    
+    <script src="./main.js"></script>
+</body>
+</html>
